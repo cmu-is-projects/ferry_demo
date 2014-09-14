@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @viewer.name %>
+</p>
+<p>
+  <strong>Zone:</strong>
+  <%= @viewer.zone_id %>
+</p>
+
+<%= link_to 'Edit', edit_viewer_path(@viewer) %> |
+<%= link_to 'Back', viewers_path %>
