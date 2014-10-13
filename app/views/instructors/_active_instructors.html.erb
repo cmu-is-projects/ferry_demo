@@ -1,0 +1,24 @@
+<h3>Active Instructors</h3>
+
+<table class="table">
+  <tr>
+    <th width="200">Name</th>
+    <th width="200">Phone</th>
+    <th width="100">Camps</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @active_instructors.each do |instructor| %>
+  <tr>
+    <td><%= link_to instructor.name, instructor_path(instructor) %></td>
+    <td align="center"><%= number_to_phone instructor.phone %></td>
+    <td align="center"><%= instructor.camps.size %></td>
+    <td><%= link_to 'Edit', edit_instructor_path(instructor), class: "button tiny radius" %></td>
+  </tr>
+<% end %>
+</table>
+<!-- Add the pagination using will_paginate gem -->
+<span class="paginate">
+<%= will_paginate @active_instructors, :previous_label => "Previous&nbsp;", :next_label => "&nbsp;Next" %>
+</span>

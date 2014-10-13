@@ -1,0 +1,17 @@
+<h3>Curriculum Details</h3><br />
+<strong>Name:&nbsp;&nbsp;</strong> 
+  <%= @curriculum.name %><br /><br />
+
+<strong>Description:&nbsp;&nbsp;</strong><br /> 
+  <%= @curriculum.description %><br /><br />
+
+<strong>Ratings Range:&nbsp;&nbsp;</strong> 
+  <%= @curriculum.min_rating.zero? ? "Unrated" : @curriculum.min_rating %> - <%= @curriculum.max_rating %><br /><br />
+
+<strong>Active?&nbsp;&nbsp;</strong>
+  <%= @curriculum.active ? "Yes" : "No" %><br /><br />
+
+
+
+<%= link_to "Edit this curriculum", edit_curriculum_path(@curriculum), class: "button tiny radius" %>&nbsp;&nbsp;
+<%= link_to 'Destroy curriculum', curriculum_path(@curriculum), data: { confirm: 'Are you sure you want to permanently remove this curriculum from the system?' }, method: :delete, class: "button tiny radius alert" %>

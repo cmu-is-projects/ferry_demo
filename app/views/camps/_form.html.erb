@@ -1,0 +1,28 @@
+<%= simple_form_for(@camp, html: { class: 'form-horizontal' }) do |f| %>
+       
+    <div class="row">
+      <div class="small-6 columns">
+        <h3><%= controller.action_name.capitalize %> Camp</h3>
+        <%= f.input :curriculum_id, collection: Curriculum.active.alphabetical, prompt: "Select curriculum..." %>
+        <%= f.input :cost %>
+        <%= f.input :max_students %>
+        <%= f.input :start_date, as: :date, order: [:month, :day, :year], include_blank: true, start_year: Date.today.year - 1, end_year: Date.today.year + 1 %>
+        <%= f.input :end_date, as: :date, order: [:month, :day, :year], include_blank: true, start_year: Date.today.year - 1, end_year: Date.today.year + 1 %>
+        <%= f.input :time_slot, collection: [['Morning','am'],['Afternoon','pm']], prompt: "Select time..." %>
+        <%= f.input :active %>
+      </div>
+      <div class="small-1 columns">&nbsp;</div>
+      <div class="small-5 columns">
+        <% if controller.action_name=="edit" && @camp.active %>
+        <h3>Camp Instructor(s)</h3>
+        <%= f.input :instructor_ids, label: "", collection: Instructor.active.alphabetical, as: :check_boxes %>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <%= f.submit nil, class: 'button radius' %>
+      <%= link_to 'Back to list of camps', camps_path, :class => 'button secondary radius' %>
+    </div>
+
+<% end %>

@@ -11,29 +11,88 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140828193059) do
+ActiveRecord::Schema.define(version: 20140413183432) do
 
-  create_table "games", force: true do |t|
-    t.string   "home_team"
-    t.string   "away_team"
-    t.string   "location"
-    t.datetime "time"
-    t.integer  "week"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "camp_instructors", force: true do |t|
+    t.integer "camp_id"
+    t.integer "instructor_id"
   end
 
-  create_table "viewers", force: true do |t|
-    t.integer  "zone_id"
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "camps", force: true do |t|
+    t.integer "curriculum_id"
+    t.integer "cost"
+    t.date    "start_date"
+    t.date    "end_date"
+    t.string  "time_slot"
+    t.integer "max_students"
+    t.boolean "active",        default: true
+    t.integer "location_id"
   end
 
-  create_table "zones", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "curriculums", force: true do |t|
+    t.string  "name"
+    t.text    "description"
+    t.integer "min_rating"
+    t.integer "max_rating"
+    t.boolean "active",      default: true
+  end
+
+  create_table "families", force: true do |t|
+    t.string  "family_name"
+    t.string  "parent_first_name"
+    t.string  "email"
+    t.string  "phone"
+    t.boolean "active",            default: true
+  end
+
+  create_table "instructors", force: true do |t|
+    t.string  "first_name"
+    t.string  "last_name"
+    t.text    "bio"
+    t.string  "email"
+    t.string  "phone"
+    t.boolean "active",     default: true
+    t.string  "picture"
+  end
+
+  create_table "locations", force: true do |t|
+    t.string  "name"
+    t.string  "street_1"
+    t.string  "street_2"
+    t.string  "city"
+    t.string  "state"
+    t.string  "zip"
+    t.integer "max_capacity"
+    t.float   "latitude"
+    t.float   "longitude"
+    t.boolean "active",       default: true
+  end
+
+  create_table "registrations", force: true do |t|
+    t.integer "camp_id"
+    t.integer "student_id"
+    t.string  "payment_status"
+    t.integer "points_earned",  default: 0
+  end
+
+  create_table "students", force: true do |t|
+    t.string  "first_name"
+    t.string  "last_name"
+    t.integer "family_id"
+    t.date    "date_of_birth"
+    t.integer "rating",        default: 0
+    t.boolean "active",        default: true
+  end
+
+  create_table "users", force: true do |t|
+    t.string  "username"
+    t.string  "password_digest"
+    t.integer "instructor_id"
+    t.string  "role"
+    t.boolean "active",          default: true
   end
 
 end

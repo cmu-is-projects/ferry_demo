@@ -1,0 +1,22 @@
+<% unless @upcoming_camps.empty? %>
+  <!-- <h3>&nbsp;</h3> -->
+  <div class="panel clearfix">
+    <h5>Upcoming Camps</h5>
+    <ul class="side-nav">
+      <% @upcoming_camps.each do |camp| %>
+        <li><%= link_to camp.name, camp_path(camp) %> (<%= camp.start_date.strftime('%m/%d/%y') %>)</li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<% unless @past_camps.empty? %>
+  <div class="panel clearfix" id="past">
+    <h5>Past Camps</h5>
+    <ul class="side-nav">
+      <% @past_camps.each do |camp| %>
+        <li><%= link_to camp.name, camp_path(camp) %> (<%= camp.start_date.strftime('%m/%d/%y') %>)</li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

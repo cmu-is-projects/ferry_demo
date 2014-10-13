@@ -1,0 +1,16 @@
+<% unless @camps.empty? %>
+  <!-- <h3>&nbsp;</h3> -->
+  <div class="panel clearfix">
+    <h5>Curriculum Used On:</h5>
+    <ul class="side-nav">
+      <% @camps.each do |camp| %>
+        <li><%= link_to "#{camp.start_date.strftime('%B %e, %Y')}", camp_path(camp) %></li>
+      <% end %>
+    </ul>
+  </div>
+
+<% else %>
+  <div class="panel clearfix">
+    <h5>Curriculum has not been used</h5>
+  </div>
+<% end %>

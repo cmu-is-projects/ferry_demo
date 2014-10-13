@@ -1,0 +1,24 @@
+<h3><%= status %> Camps</h3>
+
+<table class="table">
+  <tr>
+    <th width="260">Name</th>
+    <th width="120">Start On</th>
+    <th width="120">Time</th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% camps.each do |camp| %>
+  <tr>
+    <td><%= link_to camp.name, camp_path(camp) %></td>
+    <td align="center"><%= camp.start_date.strftime('%m/%d/%y') %></td>
+    <td align="center"><%= camp.time_slot == "am" ? "Morning" : "Afternoon" %></td>
+    <td><%= link_to 'Edit', edit_camp_path(camp), class: "button tiny radius" %></td>
+  </tr>
+<% end %>
+</table>
+<!-- Add the pagination using will_paginate gem -->
+<span class="paginate">
+<%= will_paginate camps, :previous_label => "Previous&nbsp;", :next_label => "&nbsp;Next" %>
+</span>
