@@ -1,0 +1,11 @@
+<% unless @inactive_instructors.empty? %>
+  <h3>&nbsp;</h3>
+  <div class="panel clearfix">
+    <h5>Inactive Instructors</h5>
+    <ul class="side-nav">
+      <% @inactive_instructors.each do |instructor| %>
+        <li><%= link_to instructor.name, instructor_path(instructor) %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

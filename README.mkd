@@ -1,0 +1,13 @@
+This is a test app for the gem ferry.
+
+This app has several different db types in different environments:
+
+'sqlite_development'
+'mysql_development'
+'postgresql_development'
+
+all other environments run on sqlite (production, test, development)
+
+To populate these dbs, you will need to run rake db:migrate and rake db:populate in all 3, meaning you need to switch to them on the command line.  And by switch, I mean set them as your 'development' environment, run the rakes, then set the default 'development' environment back as well as whatever the name of the environment you were populating.
+
+If there is a way to run rakes only on specific environments, I don't know how to do it.

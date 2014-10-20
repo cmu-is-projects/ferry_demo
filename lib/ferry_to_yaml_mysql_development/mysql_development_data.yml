@@ -1,0 +1,3946 @@
+---
+camp_instructors:
+  columns:
+  - id
+  - camp_id
+  - instructor_id
+  records:
+  - - 1
+    - 1
+    - 2
+  - - 2
+    - 1
+    - 8
+  - - 3
+    - 2
+    - 6
+  - - 4
+    - 3
+    - 6
+  - - 5
+    - 3
+    - 10
+  - - 6
+    - 4
+    - 5
+  - - 7
+    - 5
+    - 6
+  - - 8
+    - 5
+    - 11
+  - - 9
+    - 6
+    - 1
+  - - 10
+    - 7
+    - 5
+  - - 11
+    - 8
+    - 6
+  - - 12
+    - 8
+    - 10
+  - - 13
+    - 9
+    - 4
+  - - 14
+    - 10
+    - 2
+  - - 15
+    - 10
+    - 8
+  - - 16
+    - 11
+    - 1
+  - - 17
+    - 12
+    - 5
+  - - 18
+    - 12
+    - 10
+  - - 19
+    - 13
+    - 6
+  - - 20
+    - 14
+    - 4
+  - - 21
+    - 14
+    - 8
+  - - 22
+    - 15
+    - 6
+  - - 23
+    - 16
+    - 6
+  - - 24
+    - 16
+    - 9
+  - - 25
+    - 17
+    - 4
+  - - 26
+    - 18
+    - 4
+  - - 27
+    - 18
+    - 10
+  - - 28
+    - 19
+    - 6
+  - - 29
+    - 20
+    - 6
+  - - 30
+    - 20
+    - 9
+  - - 31
+    - 21
+    - 4
+  - - 32
+    - 22
+    - 6
+  - - 33
+    - 22
+    - 8
+  - - 34
+    - 23
+    - 7
+  - - 35
+    - 24
+    - 2
+  - - 36
+    - 25
+    - 2
+  - - 37
+    - 25
+    - 11
+  - - 38
+    - 26
+    - 6
+  - - 39
+    - 27
+    - 4
+  - - 40
+    - 27
+    - 8
+  - - 41
+    - 28
+    - 7
+  - - 42
+    - 29
+    - 1
+  - - 43
+    - 29
+    - 8
+  - - 44
+    - 30
+    - 2
+  - - 45
+    - 31
+    - 5
+  - - 46
+    - 31
+    - 8
+  - - 47
+    - 32
+    - 7
+  - - 48
+    - 33
+    - 2
+  - - 49
+    - 33
+    - 11
+  - - 50
+    - 34
+    - 4
+  - - 51
+    - 35
+    - 7
+---
+camps:
+  columns:
+  - id
+  - curriculum_id
+  - cost
+  - start_date
+  - end_date
+  - time_slot
+  - max_students
+  - active
+  - location_id
+  records:
+  - - 1
+    - 1
+    - 125
+    - 2016-06-16
+    - 2016-06-20
+    - am
+    - 8
+    - 1
+    - 4
+  - - 2
+    - 5
+    - 125
+    - 2016-06-16
+    - 2016-06-20
+    - am
+    - 8
+    - 1
+    - 3
+  - - 3
+    - 1
+    - 125
+    - 2016-06-16
+    - 2016-06-20
+    - pm
+    - 8
+    - 1
+    - 1
+  - - 4
+    - 5
+    - 125
+    - 2016-06-16
+    - 2016-06-20
+    - pm
+    - 8
+    - 1
+    - 3
+  - - 5
+    - 1
+    - 125
+    - 2016-06-23
+    - 2016-06-27
+    - am
+    - 8
+    - 1
+    - 2
+  - - 6
+    - 4
+    - 125
+    - 2016-06-23
+    - 2016-06-27
+    - am
+    - 8
+    - 1
+    - 4
+  - - 7
+    - 2
+    - 125
+    - 2016-06-23
+    - 2016-06-27
+    - am
+    - 8
+    - 1
+    - 1
+  - - 8
+    - 1
+    - 125
+    - 2016-06-23
+    - 2016-06-27
+    - pm
+    - 8
+    - 1
+    - 2
+  - - 9
+    - 4
+    - 125
+    - 2016-06-23
+    - 2016-06-27
+    - pm
+    - 8
+    - 1
+    - 4
+  - - 10
+    - 1
+    - 125
+    - 2016-07-07
+    - 2016-07-11
+    - am
+    - 8
+    - 1
+    - 3
+  - - 11
+    - 4
+    - 125
+    - 2016-07-07
+    - 2016-07-11
+    - am
+    - 8
+    - 1
+    - 4
+  - - 12
+    - 1
+    - 125
+    - 2016-07-07
+    - 2016-07-11
+    - pm
+    - 8
+    - 1
+    - 4
+  - - 13
+    - 4
+    - 125
+    - 2016-07-07
+    - 2016-07-11
+    - pm
+    - 8
+    - 1
+    - 2
+  - - 14
+    - 1
+    - 125
+    - 2016-07-21
+    - 2016-07-25
+    - am
+    - 8
+    - 1
+    - 4
+  - - 15
+    - 5
+    - 125
+    - 2016-07-21
+    - 2016-07-25
+    - am
+    - 8
+    - 1
+    - 1
+  - - 16
+    - 1
+    - 125
+    - 2016-07-21
+    - 2016-07-25
+    - pm
+    - 8
+    - 1
+    - 3
+  - - 17
+    - 2
+    - 125
+    - 2016-07-21
+    - 2016-07-25
+    - pm
+    - 8
+    - 1
+    - 1
+  - - 18
+    - 1
+    - 125
+    - 2016-07-28
+    - 2016-08-01
+    - am
+    - 8
+    - 1
+    - 4
+  - - 19
+    - 4
+    - 125
+    - 2016-07-28
+    - 2016-08-01
+    - am
+    - 8
+    - 1
+    - 3
+  - - 20
+    - 1
+    - 125
+    - 2016-07-28
+    - 2016-08-01
+    - pm
+    - 8
+    - 1
+    - 3
+  - - 21
+    - 2
+    - 125
+    - 2016-07-28
+    - 2016-08-01
+    - pm
+    - 8
+    - 1
+    - 2
+  - - 22
+    - 1
+    - 125
+    - 2016-08-04
+    - 2016-08-08
+    - am
+    - 8
+    - 1
+    - 4
+  - - 23
+    - 4
+    - 125
+    - 2016-08-04
+    - 2016-08-08
+    - am
+    - 8
+    - 1
+    - 1
+  - - 24
+    - 2
+    - 125
+    - 2016-08-04
+    - 2016-08-08
+    - am
+    - 8
+    - 1
+    - 3
+  - - 25
+    - 1
+    - 125
+    - 2016-08-04
+    - 2016-08-08
+    - pm
+    - 8
+    - 1
+    - 3
+  - - 26
+    - 2
+    - 125
+    - 2016-08-04
+    - 2016-08-08
+    - pm
+    - 8
+    - 1
+    - 4
+  - - 27
+    - 1
+    - 125
+    - 2016-08-11
+    - 2016-08-15
+    - am
+    - 8
+    - 1
+    - 3
+  - - 28
+    - 4
+    - 125
+    - 2016-08-11
+    - 2016-08-15
+    - am
+    - 8
+    - 1
+    - 2
+  - - 29
+    - 1
+    - 125
+    - 2016-08-11
+    - 2016-08-15
+    - pm
+    - 8
+    - 1
+    - 2
+  - - 30
+    - 5
+    - 125
+    - 2016-08-11
+    - 2016-08-15
+    - pm
+    - 8
+    - 1
+    - 1
+  - - 31
+    - 1
+    - 125
+    - 2016-08-18
+    - 2016-08-22
+    - am
+    - 8
+    - 1
+    - 4
+  - - 32
+    - 5
+    - 125
+    - 2016-08-18
+    - 2016-08-22
+    - am
+    - 8
+    - 1
+    - 1
+  - - 33
+    - 1
+    - 125
+    - 2016-08-18
+    - 2016-08-22
+    - pm
+    - 8
+    - 1
+    - 2
+  - - 34
+    - 5
+    - 125
+    - 2016-08-18
+    - 2016-08-22
+    - pm
+    - 8
+    - 1
+    - 3
+  - - 35
+    - 2
+    - 125
+    - 2016-08-18
+    - 2016-08-22
+    - pm
+    - 8
+    - 1
+    - 4
+---
+curriculums:
+  columns:
+  - id
+  - name
+  - description
+  - min_rating
+  - max_rating
+  - active
+  records:
+  - - 1
+    - Principles of Chess
+    - This camp is designed for beginning students who know need to learn opening
+      principles, pattern recognition and basic tactics and mates.  Students will
+      be given a set of mate-in-one flashcards and are expected to work on these at
+      home during the week.
+    - 0
+    - 500
+    - 1
+  - - 2
+    - Mastering Chess Tactics
+    - This camp is designed for any student who has mastered basic mating patterns
+      and understands opening principles and is looking to improve his/her ability
+      use chess tactics in game situations. Students will be given a set of tactical
+      flashcards and are expected to work on these at home during the week.
+    - 400
+    - 850
+    - 1
+  - - 3
+    - The Tactics of Mikhail Tal
+    - Tal is one of the most admired world champions and often called the Wizard from
+      Riga for his almost magical play.  His chess genius was most clearly seen in
+      his amazing sacrifices and dazzling tactics and in this camp we will dissect
+      these thoroughly so students can learn from them.
+    - 800
+    - 3000
+    - 0
+  - - 4
+    - Nimzo-Indian Defense
+    - This camp is for intermediate and advanced players who are looking for a good
+      defense to play against 1. d4.  Many world champions, including Mikhail Tal
+      and Garry Kasparov, have played this defense with great success.  Students will
+      have 4 to 6 games to review each day at home as homework.
+    - 1000
+    - 3000
+    - 1
+  - - 5
+    - Endgame Principles
+    - In this camp we focus on mastering endgame principles and tactics.  We will
+      focus primarily on King-pawn and King-rook endings, but other endings will be
+      covered as well. Complete games will not be played during this camp, but students
+      will compete through a series of endgame exercises for points and awards.
+    - 750
+    - 1500
+    - 1
+---
+families:
+  columns:
+  - id
+  - family_name
+  - parent_first_name
+  - email
+  - phone
+  - active
+  records:
+  - - 1
+    - Blick
+    - Veda
+    - veda.blick91@example.com
+    - '8831550274'
+    - 1
+  - - 2
+    - Cole
+    - Rahul
+    - rahul.cole88@example.com
+    - '5660809108'
+    - 1
+  - - 3
+    - Dare
+    - Valerie
+    - valerie.dare39@example.com
+    - 0144798322
+    - 1
+  - - 4
+    - Barrows
+    - Jarrell
+    - jarrell.barrows17@example.com
+    - '8027326940'
+    - 1
+  - - 5
+    - Reichert
+    - Mariane
+    - mariane.reichert66@example.com
+    - '4098403221'
+    - 1
+  - - 6
+    - Kilback
+    - Ericka
+    - ericka.kilback65@example.com
+    - '5489145152'
+    - 1
+  - - 7
+    - Jones
+    - Rodrick
+    - rodrick.jones55@example.com
+    - 0656658300
+    - 1
+  - - 8
+    - Rohan
+    - Arianna
+    - arianna.rohan73@example.com
+    - '8030310071'
+    - 1
+  - - 9
+    - Windler
+    - Lloyd
+    - lloyd.windler29@example.com
+    - '8555147159'
+    - 1
+  - - 10
+    - Kshlerin
+    - Aliyah
+    - aliyah.kshlerin83@example.com
+    - '2052726801'
+    - 1
+  - - 11
+    - Goldner
+    - Casimir
+    - casimir.goldner3@example.com
+    - '8324224821'
+    - 1
+  - - 12
+    - Herman
+    - Jettie
+    - jettie.herman4@example.com
+    - 0540795028
+    - 1
+  - - 13
+    - Grant
+    - Kamille
+    - kamille.grant51@example.com
+    - '7459913224'
+    - 1
+  - - 14
+    - Boyle
+    - Mireya
+    - mireya.boyle26@example.com
+    - '2894407286'
+    - 1
+  - - 15
+    - O'Reilly
+    - Rudolph
+    - rudolph.o'reilly1@example.com
+    - '9451277020'
+    - 1
+  - - 16
+    - Bailey
+    - Cyril
+    - cyril.bailey2@example.com
+    - 0790934694
+    - 1
+  - - 17
+    - Price
+    - Maverick
+    - maverick.price63@example.com
+    - '6062017020'
+    - 1
+  - - 18
+    - Wiza
+    - Christ
+    - christ.wiza55@example.com
+    - '6282939050'
+    - 1
+  - - 19
+    - Dickinson
+    - Concepcion
+    - concepcion.dickinson14@example.com
+    - '5661290821'
+    - 1
+  - - 20
+    - Cremin
+    - Tevin
+    - tevin.cremin14@example.com
+    - '1589519163'
+    - 1
+  - - 21
+    - Emard
+    - Colten
+    - colten.emard57@example.com
+    - '8819255703'
+    - 1
+  - - 22
+    - Corkery
+    - Gene
+    - gene.corkery97@example.com
+    - 0040462378
+    - 1
+  - - 23
+    - Leuschke
+    - Edison
+    - edison.leuschke4@example.com
+    - '6871163832'
+    - 1
+  - - 24
+    - Douglas
+    - Sidney
+    - sidney.douglas8@example.com
+    - '5274156750'
+    - 1
+  - - 25
+    - Collins
+    - Junior
+    - junior.collins47@example.com
+    - '9724292471'
+    - 1
+  - - 26
+    - Wyman
+    - Kamron
+    - kamron.wyman47@example.com
+    - '9769649159'
+    - 1
+  - - 27
+    - Doyle
+    - Alisa
+    - alisa.doyle93@example.com
+    - 0993025526
+    - 1
+  - - 28
+    - Roob
+    - Stan
+    - stan.roob71@example.com
+    - '5137582494'
+    - 1
+  - - 29
+    - Casper
+    - Mylene
+    - mylene.casper84@example.com
+    - '5009632614'
+    - 1
+  - - 30
+    - Champlin
+    - Savanna
+    - savanna.champlin85@example.com
+    - '8915849305'
+    - 1
+  - - 31
+    - Orn
+    - Phoebe
+    - phoebe.orn80@example.com
+    - '2692891744'
+    - 1
+  - - 32
+    - Connelly
+    - Adele
+    - adele.connelly36@example.com
+    - '2504535262'
+    - 1
+  - - 33
+    - Volkman
+    - Maritza
+    - maritza.volkman53@example.com
+    - '2484265920'
+    - 1
+  - - 34
+    - Schaefer
+    - Lorenzo
+    - lorenzo.schaefer68@example.com
+    - '1161676986'
+    - 1
+  - - 35
+    - Sauer
+    - Evans
+    - evans.sauer45@example.com
+    - '8898261639'
+    - 1
+  - - 36
+    - Casper
+    - Mack
+    - mack.casper46@example.com
+    - '5228084463'
+    - 1
+  - - 37
+    - Dibbert
+    - Kylee
+    - kylee.dibbert36@example.com
+    - '8318228198'
+    - 1
+  - - 38
+    - Kuvalis
+    - Howell
+    - howell.kuvalis11@example.com
+    - '7109436756'
+    - 1
+  - - 39
+    - Leannon
+    - Aisha
+    - aisha.leannon20@example.com
+    - '8324658287'
+    - 1
+  - - 40
+    - Lesch
+    - Betsy
+    - betsy.lesch83@example.com
+    - '1660331445'
+    - 1
+  - - 41
+    - Cronin
+    - Eva
+    - eva.cronin50@example.com
+    - '9981669088'
+    - 1
+  - - 42
+    - Bauch
+    - Martina
+    - martina.bauch61@example.com
+    - '4997453365'
+    - 1
+  - - 43
+    - Pollich
+    - Daren
+    - daren.pollich5@example.com
+    - '7314352388'
+    - 1
+  - - 44
+    - Heaney
+    - Justina
+    - justina.heaney21@example.com
+    - '3998470345'
+    - 1
+  - - 45
+    - Nicolas
+    - Lilliana
+    - lilliana.nicolas61@example.com
+    - '5404131828'
+    - 1
+  - - 46
+    - Upton
+    - Orland
+    - orland.upton66@example.com
+    - '5496998150'
+    - 1
+  - - 47
+    - Lockman
+    - Riley
+    - riley.lockman98@example.com
+    - '9346701607'
+    - 1
+  - - 48
+    - Crist
+    - Ernie
+    - ernie.crist22@example.com
+    - '4467957874'
+    - 1
+  - - 49
+    - Kutch
+    - D'angelo
+    - d'angelo.kutch41@example.com
+    - '6764048851'
+    - 1
+  - - 50
+    - Jones
+    - Kelli
+    - kelli.jones92@example.com
+    - '6683636384'
+    - 1
+  - - 51
+    - Veum
+    - Maya
+    - maya.veum85@example.com
+    - '7263658924'
+    - 1
+  - - 52
+    - Kunze
+    - Jaren
+    - jaren.kunze58@example.com
+    - '7352682559'
+    - 1
+  - - 53
+    - Schamberger
+    - Brett
+    - brett.schamberger21@example.com
+    - '0152604306'
+    - 1
+  - - 54
+    - Morissette
+    - Amy
+    - amy.morissette37@example.com
+    - '3110192793'
+    - 1
+  - - 55
+    - Ratke
+    - Kaley
+    - kaley.ratke67@example.com
+    - '1933376572'
+    - 1
+  - - 56
+    - Hyatt
+    - Gus
+    - gus.hyatt15@example.com
+    - '2819387879'
+    - 1
+  - - 57
+    - Nitzsche
+    - Winnifred
+    - winnifred.nitzsche67@example.com
+    - '8507562277'
+    - 1
+  - - 58
+    - Goyette
+    - Sterling
+    - sterling.goyette29@example.com
+    - '1830339043'
+    - 1
+  - - 59
+    - Pacocha
+    - Arne
+    - arne.pacocha10@example.com
+    - '7177300128'
+    - 1
+  - - 60
+    - Graham
+    - Elyssa
+    - elyssa.graham30@example.com
+    - '3653376536'
+    - 1
+  - - 61
+    - O'Kon
+    - Sandy
+    - sandy.o'kon4@example.com
+    - '8684340027'
+    - 1
+  - - 62
+    - Hand
+    - Ellsworth
+    - ellsworth.hand53@example.com
+    - 0598814763
+    - 1
+  - - 63
+    - Roob
+    - Jarrell
+    - jarrell.roob43@example.com
+    - '3559755960'
+    - 1
+  - - 64
+    - McLaughlin
+    - Jazlyn
+    - jazlyn.mclaughlin94@example.com
+    - '2851242972'
+    - 1
+  - - 65
+    - Sporer
+    - Donavon
+    - donavon.sporer45@example.com
+    - '4773857005'
+    - 1
+  - - 66
+    - Mitchell
+    - Derrick
+    - derrick.mitchell47@example.com
+    - '1286777225'
+    - 1
+  - - 67
+    - Hansen
+    - Jedidiah
+    - jedidiah.hansen65@example.com
+    - '5988232135'
+    - 1
+  - - 68
+    - Boyle
+    - Alexa
+    - alexa.boyle61@example.com
+    - 0024077912
+    - 1
+  - - 69
+    - Hickle
+    - Alexis
+    - alexis.hickle71@example.com
+    - '6323903643'
+    - 1
+  - - 70
+    - Beatty
+    - Nyasia
+    - nyasia.beatty52@example.com
+    - '2920907977'
+    - 1
+  - - 71
+    - Marvin
+    - Mack
+    - mack.marvin32@example.com
+    - '1315836594'
+    - 1
+  - - 72
+    - Heidenreich
+    - Hope
+    - hope.heidenreich16@example.com
+    - '8643161651'
+    - 1
+  - - 73
+    - Sporer
+    - Mafalda
+    - mafalda.sporer68@example.com
+    - '5262720894'
+    - 1
+  - - 74
+    - Lubowitz
+    - Josefa
+    - josefa.lubowitz50@example.com
+    - '2047916898'
+    - 1
+  - - 75
+    - Hauck
+    - Theresa
+    - theresa.hauck2@example.com
+    - '9400727110'
+    - 1
+  - - 76
+    - Welch
+    - Gideon
+    - gideon.welch69@example.com
+    - 0452217018
+    - 1
+  - - 77
+    - Carter
+    - Will
+    - will.carter61@example.com
+    - '1499729084'
+    - 1
+  - - 78
+    - Herman
+    - Chyna
+    - chyna.herman70@example.com
+    - '8391472951'
+    - 1
+  - - 79
+    - Stanton
+    - Elody
+    - elody.stanton45@example.com
+    - '2715334469'
+    - 1
+  - - 80
+    - Funk
+    - Layne
+    - layne.funk63@example.com
+    - '4718457254'
+    - 1
+  - - 81
+    - Marks
+    - Karli
+    - karli.marks6@example.com
+    - '9362827535'
+    - 1
+  - - 82
+    - Okuneva
+    - Kamille
+    - kamille.okuneva69@example.com
+    - '8724903835'
+    - 1
+  - - 83
+    - Cassin
+    - Tressa
+    - tressa.cassin66@example.com
+    - '1434546905'
+    - 1
+  - - 84
+    - Wilkinson
+    - Burley
+    - burley.wilkinson85@example.com
+    - '2916828968'
+    - 1
+  - - 85
+    - Jones
+    - Edwin
+    - edwin.jones28@example.com
+    - '1047391983'
+    - 1
+  - - 86
+    - Kuhlman
+    - Erica
+    - erica.kuhlman24@example.com
+    - '9745468777'
+    - 1
+  - - 87
+    - Wehner
+    - Kurtis
+    - kurtis.wehner33@example.com
+    - '1208184840'
+    - 1
+  - - 88
+    - Keebler
+    - Edd
+    - edd.keebler65@example.com
+    - '2073075766'
+    - 1
+  - - 89
+    - Kassulke
+    - Emely
+    - emely.kassulke26@example.com
+    - '9645938465'
+    - 1
+  - - 90
+    - Feest
+    - Warren
+    - warren.feest45@example.com
+    - '7646459644'
+    - 1
+  - - 91
+    - Goyette
+    - Owen
+    - owen.goyette57@example.com
+    - '3146949087'
+    - 1
+  - - 92
+    - Howell
+    - Stephan
+    - stephan.howell8@example.com
+    - 0577271519
+    - 1
+  - - 93
+    - Bruen
+    - Hermina
+    - hermina.bruen42@example.com
+    - '1691064765'
+    - 1
+  - - 94
+    - Toy
+    - Malachi
+    - malachi.toy98@example.com
+    - '7181170586'
+    - 1
+  - - 95
+    - Littel
+    - Peter
+    - peter.littel72@example.com
+    - '0433751551'
+    - 1
+  - - 96
+    - Bayer
+    - Carole
+    - carole.bayer22@example.com
+    - '6240196608'
+    - 1
+  - - 97
+    - Labadie
+    - Colt
+    - colt.labadie12@example.com
+    - '2159021433'
+    - 1
+  - - 98
+    - King
+    - Rhianna
+    - rhianna.king49@example.com
+    - 0291187175
+    - 1
+  - - 99
+    - Thiel
+    - Chandler
+    - chandler.thiel64@example.com
+    - '7633259631'
+    - 1
+  - - 100
+    - Ferry
+    - Glenda
+    - glenda.ferry85@example.com
+    - '9516077985'
+    - 1
+---
+instructors:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - bio
+  - email
+  - phone
+  - active
+  - picture
+  records:
+  - - 1
+    - Mark
+    - Heimann
+    - 'Mark is currently among the top 100 players in the United States (USCF rating:
+      2449) and has won 4 national scholastic chess championships.  Mark attends Washington
+      University in St. Louis where he majors in mathematics and economics and plays
+      first board for the school''s chess team.'
+    - mark@razingrooks.org
+    - '4122682323'
+    - 1
+    - 
+  - - 2
+    - Alex
+    - Heimann
+    - Alex has earned his Life Master title with a current USCF rating of 2374.  Alex
+      has won 4 national scholastic chess championships as well as 2 national bughouse
+      championships.  Alex attends Wheaton College in Illinios where he majors in
+      business with a minor in anthropology and plays ultimate frisbee.
+    - alex@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 3
+    - Rachel
+    - Heimann
+    - Rachel is an amazing chess player and regularly beats her brothers, Alex and
+      Mark.  Unfortunately she is currently unable to teach for any of the chess camps
+      at this time.
+    - rachel@razingrooks.org
+    - '4122688211'
+    - 0
+    - 
+  - - 4
+    - Patrick
+    - Dustmann
+    - Great TA for 67-272; hopefully can teach chess too.
+    - patrick@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 5
+    - Mike
+    - Ferraco
+    - Great TA for 67-272; hopefully can teach chess too.
+    - mike@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 6
+    - Nathan
+    - Hahn
+    - Great TA for 67-272; hopefully can teach chess too.
+    - nathan@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 7
+    - Austin
+    - Bohn
+    - Great TA for 67-272; hopefully can teach chess too.
+    - austin@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 8
+    - Alex
+    - Egan
+    - Great TA for 67-272; hopefully can teach chess too.
+    - aegan@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 9
+    - Anthony
+    - Corletti
+    - Great TA for 67-272; hopefully can teach chess too.
+    - anthony@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 10
+    - Ryan
+    - Flood
+    - Great TA for 67-272; hopefully can teach chess too.
+    - ryan@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+  - - 11
+    - Carlos
+    - Diaz-Padron
+    - Great TA for 67-272; hopefully can teach chess too.
+    - carlos@razingrooks.org
+    - '4122683259'
+    - 1
+    - 
+---
+locations:
+  columns:
+  - id
+  - name
+  - street_1
+  - street_2
+  - city
+  - state
+  - zip
+  - max_capacity
+  - latitude
+  - longitude
+  - active
+  records:
+  - - 1
+    - North Side
+    - 801 Union Place
+    - 
+    - Pittsburgh
+    - PA
+    - '15212'
+    - 16
+    - 40.454
+    - -80.0031
+    - 1
+  - - 2
+    - Carnegie Mellon
+    - 5000 Forbes Avenue
+    - Porter Hall 222
+    - Pittsburgh
+    - PA
+    - '15213'
+    - 16
+    - 40.4411
+    - -79.9423
+    - 1
+  - - 3
+    - Squirrel Hill
+    - 5738 Forbes Avenue
+    - 
+    - Pittsburgh
+    - PA
+    - '15217'
+    - 16
+    - 40.4377
+    - -79.9239
+    - 1
+  - - 4
+    - ACAC
+    - 250 East Ohio St
+    - 
+    - Pittsburgh
+    - PA
+    - '15212'
+    - 16
+    - 40.4534
+    - -80.0031
+    - 1
+---
+registrations:
+  columns:
+  - id
+  - camp_id
+  - student_id
+  - payment_status
+  - points_earned
+  records:
+  - - 1
+    - 1
+    - 1
+    - full
+    - 0
+  - - 2
+    - 1
+    - 2
+    - full
+    - 0
+  - - 3
+    - 1
+    - 3
+    - full
+    - 0
+  - - 4
+    - 1
+    - 4
+    - full
+    - 0
+  - - 5
+    - 1
+    - 5
+    - deposit
+    - 0
+  - - 6
+    - 1
+    - 6
+    - deposit
+    - 0
+  - - 7
+    - 1
+    - 7
+    - deposit
+    - 0
+  - - 8
+    - 3
+    - 8
+    - deposit
+    - 0
+  - - 9
+    - 3
+    - 9
+    - full
+    - 0
+  - - 10
+    - 3
+    - 10
+    - deposit
+    - 0
+  - - 11
+    - 3
+    - 11
+    - deposit
+    - 0
+  - - 12
+    - 3
+    - 12
+    - full
+    - 0
+  - - 13
+    - 3
+    - 13
+    - full
+    - 0
+  - - 14
+    - 3
+    - 14
+    - deposit
+    - 0
+  - - 15
+    - 5
+    - 15
+    - full
+    - 0
+  - - 16
+    - 5
+    - 16
+    - deposit
+    - 0
+  - - 17
+    - 5
+    - 17
+    - full
+    - 0
+  - - 18
+    - 5
+    - 18
+    - deposit
+    - 0
+  - - 19
+    - 5
+    - 19
+    - full
+    - 0
+  - - 20
+    - 5
+    - 20
+    - deposit
+    - 0
+  - - 21
+    - 5
+    - 21
+    - full
+    - 0
+  - - 22
+    - 8
+    - 22
+    - full
+    - 0
+  - - 23
+    - 8
+    - 23
+    - full
+    - 0
+  - - 24
+    - 8
+    - 24
+    - deposit
+    - 0
+  - - 25
+    - 8
+    - 25
+    - full
+    - 0
+  - - 26
+    - 8
+    - 26
+    - full
+    - 0
+  - - 27
+    - 8
+    - 27
+    - full
+    - 0
+  - - 28
+    - 8
+    - 28
+    - full
+    - 0
+  - - 29
+    - 10
+    - 29
+    - full
+    - 0
+  - - 30
+    - 10
+    - 30
+    - deposit
+    - 0
+  - - 31
+    - 10
+    - 31
+    - full
+    - 0
+  - - 32
+    - 10
+    - 32
+    - deposit
+    - 0
+  - - 33
+    - 10
+    - 33
+    - full
+    - 0
+  - - 34
+    - 10
+    - 34
+    - full
+    - 0
+  - - 35
+    - 10
+    - 35
+    - deposit
+    - 0
+  - - 36
+    - 10
+    - 36
+    - deposit
+    - 0
+  - - 37
+    - 12
+    - 37
+    - full
+    - 0
+  - - 38
+    - 12
+    - 38
+    - deposit
+    - 0
+  - - 39
+    - 12
+    - 39
+    - deposit
+    - 0
+  - - 40
+    - 12
+    - 40
+    - full
+    - 0
+  - - 41
+    - 12
+    - 41
+    - full
+    - 0
+  - - 42
+    - 12
+    - 42
+    - deposit
+    - 0
+  - - 43
+    - 12
+    - 43
+    - deposit
+    - 0
+  - - 44
+    - 14
+    - 44
+    - deposit
+    - 0
+  - - 45
+    - 14
+    - 45
+    - deposit
+    - 0
+  - - 46
+    - 14
+    - 46
+    - deposit
+    - 0
+  - - 47
+    - 14
+    - 47
+    - deposit
+    - 0
+  - - 48
+    - 14
+    - 48
+    - deposit
+    - 0
+  - - 49
+    - 14
+    - 49
+    - deposit
+    - 0
+  - - 50
+    - 14
+    - 50
+    - deposit
+    - 0
+  - - 51
+    - 14
+    - 51
+    - full
+    - 0
+  - - 52
+    - 16
+    - 52
+    - full
+    - 0
+  - - 53
+    - 16
+    - 53
+    - full
+    - 0
+  - - 54
+    - 16
+    - 54
+    - deposit
+    - 0
+  - - 55
+    - 16
+    - 55
+    - full
+    - 0
+  - - 56
+    - 16
+    - 56
+    - full
+    - 0
+  - - 57
+    - 16
+    - 57
+    - deposit
+    - 0
+  - - 58
+    - 16
+    - 58
+    - full
+    - 0
+  - - 59
+    - 20
+    - 59
+    - deposit
+    - 0
+  - - 60
+    - 20
+    - 60
+    - full
+    - 0
+  - - 61
+    - 20
+    - 61
+    - deposit
+    - 0
+  - - 62
+    - 20
+    - 62
+    - deposit
+    - 0
+  - - 63
+    - 20
+    - 63
+    - deposit
+    - 0
+  - - 64
+    - 20
+    - 64
+    - full
+    - 0
+  - - 65
+    - 20
+    - 65
+    - deposit
+    - 0
+  - - 66
+    - 18
+    - 66
+    - full
+    - 0
+  - - 67
+    - 18
+    - 67
+    - deposit
+    - 0
+  - - 68
+    - 18
+    - 68
+    - full
+    - 0
+  - - 69
+    - 18
+    - 69
+    - deposit
+    - 0
+  - - 70
+    - 18
+    - 70
+    - deposit
+    - 0
+  - - 71
+    - 18
+    - 71
+    - full
+    - 0
+  - - 72
+    - 18
+    - 72
+    - deposit
+    - 0
+  - - 73
+    - 18
+    - 73
+    - full
+    - 0
+  - - 74
+    - 22
+    - 74
+    - full
+    - 0
+  - - 75
+    - 22
+    - 75
+    - full
+    - 0
+  - - 76
+    - 22
+    - 76
+    - deposit
+    - 0
+  - - 77
+    - 22
+    - 77
+    - full
+    - 0
+  - - 78
+    - 22
+    - 78
+    - full
+    - 0
+  - - 79
+    - 22
+    - 79
+    - deposit
+    - 0
+  - - 80
+    - 22
+    - 80
+    - full
+    - 0
+  - - 81
+    - 22
+    - 81
+    - deposit
+    - 0
+  - - 82
+    - 25
+    - 82
+    - deposit
+    - 0
+  - - 83
+    - 25
+    - 83
+    - full
+    - 0
+  - - 84
+    - 25
+    - 84
+    - deposit
+    - 0
+  - - 85
+    - 25
+    - 85
+    - full
+    - 0
+  - - 86
+    - 25
+    - 86
+    - full
+    - 0
+  - - 87
+    - 25
+    - 87
+    - full
+    - 0
+  - - 88
+    - 25
+    - 88
+    - deposit
+    - 0
+  - - 89
+    - 25
+    - 89
+    - full
+    - 0
+  - - 90
+    - 27
+    - 90
+    - full
+    - 0
+  - - 91
+    - 27
+    - 91
+    - full
+    - 0
+  - - 92
+    - 27
+    - 92
+    - deposit
+    - 0
+  - - 93
+    - 27
+    - 93
+    - full
+    - 0
+  - - 94
+    - 27
+    - 94
+    - deposit
+    - 0
+  - - 95
+    - 27
+    - 95
+    - full
+    - 0
+  - - 96
+    - 27
+    - 96
+    - deposit
+    - 0
+  - - 97
+    - 27
+    - 97
+    - full
+    - 0
+  - - 98
+    - 29
+    - 98
+    - deposit
+    - 0
+  - - 99
+    - 29
+    - 99
+    - deposit
+    - 0
+  - - 100
+    - 29
+    - 100
+    - full
+    - 0
+  - - 101
+    - 29
+    - 101
+    - full
+    - 0
+  - - 102
+    - 29
+    - 102
+    - full
+    - 0
+  - - 103
+    - 29
+    - 103
+    - full
+    - 0
+  - - 104
+    - 29
+    - 104
+    - deposit
+    - 0
+  - - 105
+    - 29
+    - 105
+    - deposit
+    - 0
+  - - 106
+    - 31
+    - 106
+    - full
+    - 0
+  - - 107
+    - 31
+    - 107
+    - deposit
+    - 0
+  - - 108
+    - 31
+    - 108
+    - full
+    - 0
+  - - 109
+    - 31
+    - 109
+    - deposit
+    - 0
+  - - 110
+    - 31
+    - 110
+    - deposit
+    - 0
+  - - 111
+    - 31
+    - 111
+    - deposit
+    - 0
+  - - 112
+    - 31
+    - 112
+    - full
+    - 0
+  - - 113
+    - 33
+    - 113
+    - deposit
+    - 0
+  - - 114
+    - 33
+    - 114
+    - deposit
+    - 0
+  - - 115
+    - 33
+    - 115
+    - full
+    - 0
+  - - 116
+    - 33
+    - 116
+    - full
+    - 0
+  - - 117
+    - 33
+    - 117
+    - deposit
+    - 0
+  - - 118
+    - 33
+    - 118
+    - deposit
+    - 0
+  - - 119
+    - 33
+    - 119
+    - full
+    - 0
+  - - 120
+    - 7
+    - 120
+    - full
+    - 0
+  - - 121
+    - 7
+    - 121
+    - full
+    - 0
+  - - 122
+    - 7
+    - 122
+    - full
+    - 0
+  - - 123
+    - 7
+    - 123
+    - deposit
+    - 0
+  - - 124
+    - 7
+    - 124
+    - deposit
+    - 0
+  - - 125
+    - 7
+    - 125
+    - full
+    - 0
+  - - 126
+    - 7
+    - 126
+    - full
+    - 0
+  - - 127
+    - 7
+    - 127
+    - deposit
+    - 0
+  - - 128
+    - 17
+    - 128
+    - deposit
+    - 0
+  - - 129
+    - 17
+    - 129
+    - full
+    - 0
+  - - 130
+    - 17
+    - 130
+    - deposit
+    - 0
+  - - 131
+    - 17
+    - 131
+    - deposit
+    - 0
+  - - 132
+    - 17
+    - 132
+    - full
+    - 0
+  - - 133
+    - 17
+    - 133
+    - deposit
+    - 0
+  - - 134
+    - 17
+    - 134
+    - full
+    - 0
+  - - 135
+    - 21
+    - 135
+    - full
+    - 0
+  - - 136
+    - 21
+    - 136
+    - full
+    - 0
+  - - 137
+    - 21
+    - 137
+    - deposit
+    - 0
+  - - 138
+    - 21
+    - 138
+    - full
+    - 0
+  - - 139
+    - 21
+    - 139
+    - deposit
+    - 0
+  - - 140
+    - 21
+    - 140
+    - deposit
+    - 0
+  - - 141
+    - 21
+    - 141
+    - deposit
+    - 0
+  - - 142
+    - 21
+    - 142
+    - full
+    - 0
+  - - 143
+    - 24
+    - 143
+    - full
+    - 0
+  - - 144
+    - 24
+    - 144
+    - full
+    - 0
+  - - 145
+    - 24
+    - 145
+    - full
+    - 0
+  - - 146
+    - 24
+    - 146
+    - deposit
+    - 0
+  - - 147
+    - 24
+    - 147
+    - full
+    - 0
+  - - 148
+    - 24
+    - 148
+    - full
+    - 0
+  - - 149
+    - 24
+    - 149
+    - full
+    - 0
+  - - 150
+    - 24
+    - 150
+    - full
+    - 0
+  - - 151
+    - 26
+    - 151
+    - deposit
+    - 0
+  - - 152
+    - 26
+    - 152
+    - deposit
+    - 0
+  - - 153
+    - 26
+    - 153
+    - full
+    - 0
+  - - 154
+    - 26
+    - 154
+    - deposit
+    - 0
+  - - 155
+    - 26
+    - 155
+    - deposit
+    - 0
+  - - 156
+    - 26
+    - 156
+    - deposit
+    - 0
+  - - 157
+    - 26
+    - 157
+    - full
+    - 0
+  - - 158
+    - 26
+    - 158
+    - deposit
+    - 0
+  - - 159
+    - 35
+    - 159
+    - deposit
+    - 0
+  - - 160
+    - 35
+    - 160
+    - full
+    - 0
+  - - 161
+    - 35
+    - 161
+    - full
+    - 0
+  - - 162
+    - 35
+    - 162
+    - deposit
+    - 0
+  - - 163
+    - 35
+    - 163
+    - full
+    - 0
+  - - 164
+    - 35
+    - 164
+    - full
+    - 0
+  - - 165
+    - 35
+    - 165
+    - full
+    - 0
+  - - 166
+    - 6
+    - 166
+    - deposit
+    - 0
+  - - 167
+    - 6
+    - 167
+    - full
+    - 0
+  - - 168
+    - 6
+    - 168
+    - full
+    - 0
+  - - 169
+    - 6
+    - 169
+    - full
+    - 0
+  - - 170
+    - 6
+    - 170
+    - deposit
+    - 0
+  - - 171
+    - 6
+    - 171
+    - deposit
+    - 0
+  - - 172
+    - 9
+    - 172
+    - full
+    - 0
+  - - 173
+    - 9
+    - 173
+    - full
+    - 0
+  - - 174
+    - 9
+    - 174
+    - full
+    - 0
+  - - 175
+    - 9
+    - 175
+    - full
+    - 0
+  - - 176
+    - 9
+    - 176
+    - full
+    - 0
+  - - 177
+    - 9
+    - 177
+    - deposit
+    - 0
+  - - 178
+    - 9
+    - 178
+    - full
+    - 0
+  - - 179
+    - 11
+    - 179
+    - deposit
+    - 0
+  - - 180
+    - 11
+    - 180
+    - deposit
+    - 0
+  - - 181
+    - 11
+    - 181
+    - deposit
+    - 0
+  - - 182
+    - 11
+    - 182
+    - full
+    - 0
+  - - 183
+    - 11
+    - 183
+    - full
+    - 0
+  - - 184
+    - 11
+    - 184
+    - deposit
+    - 0
+  - - 185
+    - 13
+    - 185
+    - full
+    - 0
+  - - 186
+    - 13
+    - 186
+    - deposit
+    - 0
+  - - 187
+    - 13
+    - 187
+    - deposit
+    - 0
+  - - 188
+    - 13
+    - 188
+    - deposit
+    - 0
+  - - 189
+    - 13
+    - 189
+    - full
+    - 0
+  - - 190
+    - 13
+    - 190
+    - deposit
+    - 0
+  - - 191
+    - 13
+    - 191
+    - full
+    - 0
+  - - 192
+    - 13
+    - 192
+    - deposit
+    - 0
+  - - 193
+    - 19
+    - 193
+    - deposit
+    - 0
+  - - 194
+    - 19
+    - 194
+    - deposit
+    - 0
+  - - 195
+    - 19
+    - 195
+    - deposit
+    - 0
+  - - 196
+    - 19
+    - 196
+    - deposit
+    - 0
+  - - 197
+    - 19
+    - 197
+    - full
+    - 0
+  - - 198
+    - 19
+    - 198
+    - deposit
+    - 0
+  - - 199
+    - 19
+    - 199
+    - deposit
+    - 0
+  - - 200
+    - 23
+    - 200
+    - deposit
+    - 0
+  - - 201
+    - 23
+    - 201
+    - deposit
+    - 0
+  - - 202
+    - 23
+    - 202
+    - full
+    - 0
+  - - 203
+    - 23
+    - 203
+    - deposit
+    - 0
+  - - 204
+    - 23
+    - 204
+    - deposit
+    - 0
+  - - 205
+    - 23
+    - 205
+    - full
+    - 0
+  - - 206
+    - 23
+    - 206
+    - deposit
+    - 0
+  - - 207
+    - 23
+    - 207
+    - full
+    - 0
+  - - 208
+    - 28
+    - 208
+    - full
+    - 0
+  - - 209
+    - 28
+    - 209
+    - deposit
+    - 0
+  - - 210
+    - 28
+    - 210
+    - deposit
+    - 0
+  - - 211
+    - 28
+    - 211
+    - deposit
+    - 0
+  - - 212
+    - 28
+    - 212
+    - full
+    - 0
+---
+schema_migrations:
+  columns:
+  - version
+  records:
+  - - '20140205234032'
+  - - '20140205234129'
+  - - '20140205234154'
+  - - '20140205234231'
+  - - '20140330214652'
+  - - '20140330220906'
+  - - '20140412212729'
+  - - '20140412212832'
+  - - '20140412212912'
+  - - '20140412213021'
+  - - '20140413183432'
+---
+students:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - family_id
+  - date_of_birth
+  - rating
+  - active
+  records:
+  - - 1
+    - Mose
+    - Goyette
+    - 58
+    - 2005-10-12
+    - 0
+    - 1
+  - - 2
+    - Marcelo
+    - Bauch
+    - 42
+    - 2002-10-12
+    - 0
+    - 1
+  - - 3
+    - Keara
+    - Stanton
+    - 79
+    - 2006-10-12
+    - 262
+    - 1
+  - - 4
+    - Rashad
+    - Casper
+    - 36
+    - 2007-10-12
+    - 337
+    - 1
+  - - 5
+    - Mackenzie
+    - Morissette
+    - 54
+    - 2004-10-12
+    - 383
+    - 1
+  - - 6
+    - Bailee
+    - Carter
+    - 77
+    - 2009-10-12
+    - 202
+    - 1
+  - - 7
+    - Jaeden
+    - Boyle
+    - 14
+    - 2005-10-12
+    - 223
+    - 1
+  - - 8
+    - Hipolito
+    - O'Kon
+    - 61
+    - 2006-10-12
+    - 0
+    - 1
+  - - 9
+    - Shakira
+    - Kassulke
+    - 89
+    - 2007-10-12
+    - 116
+    - 1
+  - - 10
+    - Zachary
+    - Carter
+    - 77
+    - 2008-10-12
+    - 0
+    - 1
+  - - 11
+    - Marisa
+    - Lesch
+    - 40
+    - 2003-10-12
+    - 182
+    - 1
+  - - 12
+    - Jerrod
+    - Leuschke
+    - 23
+    - 2006-10-12
+    - 0
+    - 1
+  - - 13
+    - Lowell
+    - Roob
+    - 28
+    - 2009-10-12
+    - 135
+    - 1
+  - - 14
+    - Garrick
+    - Koelpin
+    - 22
+    - 2002-10-12
+    - 110
+    - 1
+  - - 15
+    - Armando
+    - Koch
+    - 65
+    - 2009-10-12
+    - 0
+    - 1
+  - - 16
+    - Lenore
+    - Reilly
+    - 84
+    - 2008-10-12
+    - 325
+    - 1
+  - - 17
+    - Breanne
+    - King
+    - 98
+    - 2006-10-12
+    - 366
+    - 1
+  - - 18
+    - Cordell
+    - Howell
+    - 92
+    - 2002-10-12
+    - 311
+    - 1
+  - - 19
+    - Lauretta
+    - Labadie
+    - 97
+    - 2003-10-12
+    - 153
+    - 1
+  - - 20
+    - Dorothea
+    - Veum
+    - 51
+    - 2003-10-12
+    - 204
+    - 1
+  - - 21
+    - Eulah
+    - Volkman
+    - 33
+    - 2002-10-12
+    - 175
+    - 1
+  - - 22
+    - Kirstin
+    - Wiza
+    - 18
+    - 2002-10-12
+    - 0
+    - 1
+  - - 23
+    - Dashawn
+    - Schmitt
+    - 91
+    - 2007-10-12
+    - 0
+    - 1
+  - - 24
+    - Anita
+    - Morissette
+    - 54
+    - 2006-10-12
+    - 388
+    - 1
+  - - 25
+    - Carleton
+    - Upton
+    - 46
+    - 2003-10-12
+    - 0
+    - 1
+  - - 26
+    - Marilou
+    - Price
+    - 17
+    - 2009-10-12
+    - 160
+    - 1
+  - - 27
+    - Deborah
+    - Welch
+    - 76
+    - 2005-10-12
+    - 0
+    - 1
+  - - 28
+    - Jermey
+    - Boyle
+    - 14
+    - 2009-10-12
+    - 347
+    - 1
+  - - 29
+    - Federico
+    - Sporer
+    - 65
+    - 2006-10-12
+    - 161
+    - 1
+  - - 30
+    - Arjun
+    - Jones
+    - 7
+    - 2008-10-12
+    - 0
+    - 1
+  - - 31
+    - Caden
+    - Bruen
+    - 93
+    - 2005-10-12
+    - 218
+    - 1
+  - - 32
+    - Victor
+    - Kassulke
+    - 89
+    - 2004-10-12
+    - 0
+    - 1
+  - - 33
+    - Agnes
+    - Orn
+    - 31
+    - 2005-10-12
+    - 0
+    - 1
+  - - 34
+    - Laura
+    - Veum
+    - 51
+    - 2007-10-12
+    - 265
+    - 1
+  - - 35
+    - Darius
+    - Barrows
+    - 4
+    - 2005-10-12
+    - 342
+    - 1
+  - - 36
+    - Cyrus
+    - Upton
+    - 86
+    - 2005-10-12
+    - 0
+    - 1
+  - - 37
+    - Pansy
+    - Von
+    - 36
+    - 2004-10-12
+    - 181
+    - 1
+  - - 38
+    - Myrtis
+    - Reichert
+    - 5
+    - 2006-10-12
+    - 0
+    - 1
+  - - 39
+    - Courtney
+    - Okuneva
+    - 82
+    - 2005-10-12
+    - 130
+    - 1
+  - - 40
+    - Ara
+    - Boyle
+    - 14
+    - 2003-10-12
+    - 387
+    - 1
+  - - 41
+    - Irwin
+    - Crooks
+    - 73
+    - 2003-10-12
+    - 219
+    - 1
+  - - 42
+    - Dedrick
+    - Volkman
+    - 33
+    - 2006-10-12
+    - 215
+    - 1
+  - - 43
+    - Sigmund
+    - Kuhlman
+    - 86
+    - 2003-10-12
+    - 0
+    - 1
+  - - 44
+    - Jade
+    - Thiel
+    - 99
+    - 2004-10-12
+    - 198
+    - 1
+  - - 45
+    - Hans
+    - Kuhlman
+    - 86
+    - 2004-10-12
+    - 168
+    - 1
+  - - 46
+    - Jarrod
+    - Funk
+    - 80
+    - 2009-10-12
+    - 167
+    - 1
+  - - 47
+    - Judah
+    - Hand
+    - 62
+    - 2008-10-12
+    - 0
+    - 1
+  - - 48
+    - Adrian
+    - Sauer
+    - 35
+    - 2006-10-12
+    - 172
+    - 1
+  - - 49
+    - Cecil
+    - Carter
+    - 77
+    - 2008-10-12
+    - 0
+    - 1
+  - - 50
+    - Roxane
+    - Gerlach
+    - 14
+    - 2009-10-12
+    - 0
+    - 1
+  - - 51
+    - Toney
+    - Rohan
+    - 38
+    - 2009-10-12
+    - 200
+    - 1
+  - - 52
+    - Enos
+    - Schamberger
+    - 53
+    - 2007-10-12
+    - 0
+    - 1
+  - - 53
+    - Cory
+    - Fay
+    - 50
+    - 2005-10-12
+    - 0
+    - 1
+  - - 54
+    - Destany
+    - O'Reilly
+    - 15
+    - 2003-10-12
+    - 254
+    - 1
+  - - 55
+    - Kelsi
+    - King
+    - 98
+    - 2008-10-12
+    - 239
+    - 1
+  - - 56
+    - Malvina
+    - Jones
+    - 50
+    - 2002-10-12
+    - 0
+    - 1
+  - - 57
+    - Drew
+    - Wyman
+    - 26
+    - 2004-10-12
+    - 106
+    - 1
+  - - 58
+    - Kenya
+    - Corwin
+    - 31
+    - 2002-10-12
+    - 358
+    - 1
+  - - 59
+    - Nicholas
+    - Douglas
+    - 24
+    - 2003-10-12
+    - 0
+    - 1
+  - - 60
+    - Okey
+    - Orn
+    - 31
+    - 2006-10-12
+    - 174
+    - 1
+  - - 61
+    - Letitia
+    - Schroeder
+    - 7
+    - 2006-10-12
+    - 123
+    - 1
+  - - 62
+    - Olen
+    - Price
+    - 17
+    - 2006-10-12
+    - 0
+    - 1
+  - - 63
+    - Declan
+    - Marvin
+    - 71
+    - 2004-10-12
+    - 124
+    - 1
+  - - 64
+    - Emmanuel
+    - Veum
+    - 51
+    - 2005-10-12
+    - 271
+    - 1
+  - - 65
+    - Ewald
+    - Bode
+    - 63
+    - 2002-10-12
+    - 212
+    - 1
+  - - 66
+    - Daphnee
+    - Rau
+    - 96
+    - 2009-10-12
+    - 125
+    - 1
+  - - 67
+    - Tyson
+    - Nicolas
+    - 45
+    - 2008-10-12
+    - 305
+    - 1
+  - - 68
+    - Earnestine
+    - Kshlerin
+    - 10
+    - 2005-10-12
+    - 0
+    - 1
+  - - 69
+    - Clyde
+    - Orn
+    - 31
+    - 2005-10-12
+    - 360
+    - 1
+  - - 70
+    - Jaylan
+    - Price
+    - 17
+    - 2005-10-12
+    - 0
+    - 1
+  - - 71
+    - Bartholome
+    - Volkman
+    - 33
+    - 2008-10-12
+    - 376
+    - 1
+  - - 72
+    - Jerrod
+    - Labadie
+    - 97
+    - 2004-10-12
+    - 235
+    - 1
+  - - 73
+    - Malinda
+    - Roob
+    - 63
+    - 2002-10-12
+    - 322
+    - 1
+  - - 74
+    - Shaun
+    - Doyle
+    - 27
+    - 2009-10-12
+    - 181
+    - 1
+  - - 75
+    - Brianne
+    - Marvin
+    - 71
+    - 2004-10-12
+    - 0
+    - 1
+  - - 76
+    - Aleen
+    - Orn
+    - 31
+    - 2009-10-12
+    - 0
+    - 1
+  - - 77
+    - Godfrey
+    - Orn
+    - 31
+    - 2007-10-12
+    - 185
+    - 1
+  - - 78
+    - Nia
+    - Collins
+    - 25
+    - 2008-10-12
+    - 317
+    - 1
+  - - 79
+    - Kariane
+    - Emard
+    - 21
+    - 2008-10-12
+    - 0
+    - 1
+  - - 80
+    - Vicente
+    - Cremin
+    - 20
+    - 2007-10-12
+    - 139
+    - 1
+  - - 81
+    - Mason
+    - Howell
+    - 92
+    - 2008-10-12
+    - 0
+    - 1
+  - - 82
+    - Sheldon
+    - Roob
+    - 28
+    - 2009-10-12
+    - 239
+    - 1
+  - - 83
+    - Karlee
+    - Rohan
+    - 8
+    - 2007-10-12
+    - 0
+    - 1
+  - - 84
+    - Liliana
+    - Mitchell
+    - 66
+    - 2002-10-12
+    - 139
+    - 1
+  - - 85
+    - Lacey
+    - Howe
+    - 23
+    - 2003-10-12
+    - 0
+    - 1
+  - - 86
+    - Clay
+    - Littel
+    - 95
+    - 2003-10-12
+    - 359
+    - 1
+  - - 87
+    - Kyla
+    - Bauch
+    - 42
+    - 2003-10-12
+    - 0
+    - 1
+  - - 88
+    - Laron
+    - Sporer
+    - 65
+    - 2008-10-12
+    - 0
+    - 1
+  - - 89
+    - Jayme
+    - Veum
+    - 51
+    - 2007-10-12
+    - 0
+    - 1
+  - - 90
+    - Tyrel
+    - Sauer
+    - 35
+    - 2006-10-12
+    - 302
+    - 1
+  - - 91
+    - Sandy
+    - Veum
+    - 51
+    - 2009-10-12
+    - 283
+    - 1
+  - - 92
+    - Josiane
+    - Casper
+    - 36
+    - 2003-10-12
+    - 372
+    - 1
+  - - 93
+    - Roma
+    - O'Kon
+    - 61
+    - 2004-10-12
+    - 0
+    - 1
+  - - 94
+    - Thelma
+    - Ratke
+    - 55
+    - 2002-10-12
+    - 371
+    - 1
+  - - 95
+    - Ethelyn
+    - Yost
+    - 93
+    - 2004-10-12
+    - 301
+    - 1
+  - - 96
+    - Layla
+    - Mueller
+    - 52
+    - 2005-10-12
+    - 108
+    - 1
+  - - 97
+    - Thaddeus
+    - King
+    - 98
+    - 2003-10-12
+    - 0
+    - 1
+  - - 98
+    - Delilah
+    - Blick
+    - 1
+    - 2004-10-12
+    - 304
+    - 1
+  - - 99
+    - Tito
+    - Kshlerin
+    - 10
+    - 2007-10-12
+    - 0
+    - 1
+  - - 100
+    - Kaya
+    - Barrows
+    - 4
+    - 2007-10-12
+    - 183
+    - 1
+  - - 101
+    - Rae
+    - Durgan
+    - 73
+    - 2002-10-12
+    - 0
+    - 1
+  - - 102
+    - Mercedes
+    - Kassulke
+    - 89
+    - 2008-10-12
+    - 0
+    - 1
+  - - 103
+    - Rylan
+    - Roob
+    - 28
+    - 2008-10-12
+    - 238
+    - 1
+  - - 104
+    - Tanya
+    - Leannon
+    - 39
+    - 2004-10-12
+    - 0
+    - 1
+  - - 105
+    - Geovanny
+    - Graham
+    - 60
+    - 2007-10-12
+    - 0
+    - 1
+  - - 106
+    - Sabrina
+    - Sporer
+    - 65
+    - 2003-10-12
+    - 0
+    - 1
+  - - 107
+    - Quinten
+    - Volkman
+    - 33
+    - 2005-10-12
+    - 141
+    - 1
+  - - 108
+    - Major
+    - Ondricka
+    - 39
+    - 2009-10-12
+    - 300
+    - 1
+  - - 109
+    - Izabella
+    - Rohan
+    - 8
+    - 2005-10-12
+    - 0
+    - 1
+  - - 110
+    - Marlen
+    - Thiel
+    - 99
+    - 2008-10-12
+    - 0
+    - 1
+  - - 111
+    - Jaquan
+    - Hyatt
+    - 56
+    - 2003-10-12
+    - 152
+    - 1
+  - - 112
+    - Meghan
+    - Kshlerin
+    - 10
+    - 2005-10-12
+    - 0
+    - 1
+  - - 113
+    - Brant
+    - Reichert
+    - 5
+    - 2006-10-12
+    - 126
+    - 1
+  - - 114
+    - Coleman
+    - Pollich
+    - 43
+    - 2006-10-12
+    - 0
+    - 1
+  - - 115
+    - Ramiro
+    - Stanton
+    - 79
+    - 2007-10-12
+    - 0
+    - 1
+  - - 116
+    - Aliza
+    - Kshlerin
+    - 10
+    - 2009-10-12
+    - 238
+    - 1
+  - - 117
+    - Jimmie
+    - Kshlerin
+    - 10
+    - 2009-10-12
+    - 0
+    - 1
+  - - 118
+    - Kolby
+    - Leuschke
+    - 23
+    - 2005-10-12
+    - 0
+    - 1
+  - - 119
+    - Woodrow
+    - Bayer
+    - 96
+    - 2004-10-12
+    - 203
+    - 1
+  - - 120
+    - Maynard
+    - Boyle
+    - 68
+    - 2000-10-12
+    - 582
+    - 1
+  - - 121
+    - Gus
+    - Runte
+    - 72
+    - 2002-10-12
+    - 550
+    - 1
+  - - 122
+    - Sydni
+    - Collins
+    - 25
+    - 1999-10-12
+    - 581
+    - 1
+  - - 123
+    - Maybell
+    - O'Kon
+    - 61
+    - 2001-10-12
+    - 528
+    - 1
+  - - 124
+    - Nichole
+    - Lockman
+    - 47
+    - 2000-10-12
+    - 819
+    - 1
+  - - 125
+    - Reuben
+    - Howell
+    - 92
+    - 2000-10-12
+    - 538
+    - 1
+  - - 126
+    - Genevieve
+    - Nitzsche
+    - 57
+    - 2005-10-12
+    - 626
+    - 1
+  - - 127
+    - Ruthe
+    - Boyle
+    - 14
+    - 2000-10-12
+    - 772
+    - 1
+  - - 128
+    - Rachelle
+    - Keebler
+    - 88
+    - 2005-10-12
+    - 681
+    - 1
+  - - 129
+    - Ewald
+    - Marvin
+    - 71
+    - 2005-10-12
+    - 585
+    - 1
+  - - 130
+    - Emily
+    - O'Reilly
+    - 15
+    - 2007-10-12
+    - 666
+    - 1
+  - - 131
+    - Joany
+    - Cremin
+    - 20
+    - 2003-10-12
+    - 712
+    - 1
+  - - 132
+    - Kyler
+    - Cole
+    - 2
+    - 2005-10-12
+    - 823
+    - 1
+  - - 133
+    - Garth
+    - Dibbert
+    - 37
+    - 2002-10-12
+    - 608
+    - 1
+  - - 134
+    - Citlalli
+    - Boyle
+    - 14
+    - 2001-10-12
+    - 579
+    - 1
+  - - 135
+    - Marie
+    - Schoen
+    - 30
+    - 2004-10-12
+    - 554
+    - 1
+  - - 136
+    - Mya
+    - Schaefer
+    - 34
+    - 2007-10-12
+    - 825
+    - 1
+  - - 137
+    - Birdie
+    - Price
+    - 17
+    - 2004-10-12
+    - 691
+    - 1
+  - - 138
+    - Felicity
+    - Ratke
+    - 55
+    - 2005-10-12
+    - 593
+    - 1
+  - - 139
+    - Terrance
+    - O'Reilly
+    - 15
+    - 2001-10-12
+    - 567
+    - 1
+  - - 140
+    - Nicole
+    - Casper
+    - 29
+    - 1999-10-12
+    - 681
+    - 1
+  - - 141
+    - Laurianne
+    - Lesch
+    - 40
+    - 2005-10-12
+    - 602
+    - 1
+  - - 142
+    - Nash
+    - Dibbert
+    - 37
+    - 2000-10-12
+    - 803
+    - 1
+  - - 143
+    - Susanna
+    - Collins
+    - 25
+    - 2007-10-12
+    - 722
+    - 1
+  - - 144
+    - Patrick
+    - Bailey
+    - 16
+    - 2007-10-12
+    - 609
+    - 1
+  - - 145
+    - Cedrick
+    - Casper
+    - 29
+    - 2002-10-12
+    - 637
+    - 1
+  - - 146
+    - Gudrun
+    - Windler
+    - 9
+    - 2004-10-12
+    - 734
+    - 1
+  - - 147
+    - Estel
+    - Feest
+    - 90
+    - 2005-10-12
+    - 801
+    - 1
+  - - 148
+    - Ole
+    - Heidenreich
+    - 40
+    - 2003-10-12
+    - 798
+    - 1
+  - - 149
+    - Howard
+    - Pagac
+    - 94
+    - 1999-10-12
+    - 749
+    - 1
+  - - 150
+    - Gregoria
+    - Beatty
+    - 70
+    - 2005-10-12
+    - 769
+    - 1
+  - - 151
+    - Paula
+    - Kuvalis
+    - 38
+    - 2003-10-12
+    - 619
+    - 1
+  - - 152
+    - Leon
+    - Bailey
+    - 16
+    - 2005-10-12
+    - 527
+    - 1
+  - - 153
+    - Madie
+    - Bruen
+    - 93
+    - 2004-10-12
+    - 817
+    - 1
+  - - 154
+    - Lauretta
+    - Dickinson
+    - 19
+    - 2003-10-12
+    - 776
+    - 1
+  - - 155
+    - Tobin
+    - Littel
+    - 95
+    - 2004-10-12
+    - 630
+    - 1
+  - - 156
+    - Benedict
+    - Kassulke
+    - 89
+    - 2000-10-12
+    - 632
+    - 1
+  - - 157
+    - Camila
+    - Barrows
+    - 14
+    - 2003-10-12
+    - 667
+    - 1
+  - - 158
+    - Lavina
+    - Windler
+    - 9
+    - 2005-10-12
+    - 590
+    - 1
+  - - 159
+    - Shyanne
+    - Strosin
+    - 56
+    - 2001-10-12
+    - 762
+    - 1
+  - - 160
+    - Marcella
+    - Labadie
+    - 97
+    - 2005-10-12
+    - 689
+    - 1
+  - - 161
+    - Cristal
+    - Beatty
+    - 70
+    - 2002-10-12
+    - 658
+    - 1
+  - - 162
+    - Milan
+    - Doyle
+    - 27
+    - 2000-10-12
+    - 687
+    - 1
+  - - 163
+    - Krystal
+    - Casper
+    - 36
+    - 1999-10-12
+    - 571
+    - 1
+  - - 164
+    - Yvonne
+    - Carter
+    - 77
+    - 2000-10-12
+    - 779
+    - 1
+  - - 165
+    - Sally
+    - Kutch
+    - 49
+    - 2004-10-12
+    - 637
+    - 1
+  - - 166
+    - Sammy
+    - Barrows
+    - 4
+    - 2002-10-12
+    - 1082
+    - 1
+  - - 167
+    - Melody
+    - Bruen
+    - 93
+    - 1999-10-12
+    - 1471
+    - 1
+  - - 168
+    - Fatima
+    - Marks
+    - 81
+    - 1999-10-12
+    - 1464
+    - 1
+  - - 169
+    - Julianne
+    - Bashirian
+    - 88
+    - 2004-10-12
+    - 1126
+    - 1
+  - - 170
+    - Aurelia
+    - Schamberger
+    - 53
+    - 1998-10-12
+    - 1057
+    - 1
+  - - 171
+    - Estrella
+    - Ferry
+    - 100
+    - 2006-10-12
+    - 1064
+    - 1
+  - - 172
+    - Rodrick
+    - Powlowski
+    - 73
+    - 2001-10-12
+    - 1206
+    - 1
+  - - 173
+    - Jayne
+    - Mitchell
+    - 66
+    - 1998-10-12
+    - 1299
+    - 1
+  - - 174
+    - Dashawn
+    - Volkman
+    - 33
+    - 1999-10-12
+    - 1371
+    - 1
+  - - 175
+    - Josie
+    - Leannon
+    - 39
+    - 2006-10-12
+    - 1437
+    - 1
+  - - 176
+    - Giovanni
+    - Leuschke
+    - 23
+    - 1998-10-12
+    - 1491
+    - 1
+  - - 177
+    - Cedrick
+    - Carter
+    - 77
+    - 2001-10-12
+    - 1277
+    - 1
+  - - 178
+    - Cruz
+    - Nicolas
+    - 75
+    - 1999-10-12
+    - 1313
+    - 1
+  - - 179
+    - Ubaldo
+    - Kilback
+    - 6
+    - 1999-10-12
+    - 1296
+    - 1
+  - - 180
+    - Hailee
+    - Upton
+    - 46
+    - 2005-10-12
+    - 1123
+    - 1
+  - - 181
+    - Dandre
+    - Sporer
+    - 65
+    - 1997-10-12
+    - 1089
+    - 1
+  - - 182
+    - Keyshawn
+    - Schaefer
+    - 34
+    - 2000-10-12
+    - 1263
+    - 1
+  - - 183
+    - Alene
+    - Sporer
+    - 73
+    - 2001-10-12
+    - 1349
+    - 1
+  - - 184
+    - Nichole
+    - Kling
+    - 53
+    - 2001-10-12
+    - 1271
+    - 1
+  - - 185
+    - Zena
+    - Nicolas
+    - 45
+    - 2002-10-12
+    - 1013
+    - 1
+  - - 186
+    - Lazaro
+    - Morissette
+    - 54
+    - 1997-10-12
+    - 1374
+    - 1
+  - - 187
+    - Chelsie
+    - Graham
+    - 60
+    - 1998-10-12
+    - 1092
+    - 1
+  - - 188
+    - Eda
+    - Maggio
+    - 21
+    - 1999-10-12
+    - 1028
+    - 1
+  - - 189
+    - Maybelle
+    - Bayer
+    - 96
+    - 1998-10-12
+    - 1105
+    - 1
+  - - 190
+    - Marcus
+    - Goyette
+    - 91
+    - 2004-10-12
+    - 1447
+    - 1
+  - - 191
+    - June
+    - Boyle
+    - 68
+    - 2005-10-12
+    - 1139
+    - 1
+  - - 192
+    - Fay
+    - Nicolas
+    - 45
+    - 1999-10-12
+    - 1487
+    - 1
+  - - 193
+    - Laury
+    - Schaefer
+    - 34
+    - 2002-10-12
+    - 1267
+    - 1
+  - - 194
+    - Karson
+    - Ratke
+    - 55
+    - 2001-10-12
+    - 1229
+    - 1
+  - - 195
+    - Liliana
+    - Boyle
+    - 14
+    - 2005-10-12
+    - 1129
+    - 1
+  - - 196
+    - Zola
+    - Bauch
+    - 42
+    - 1999-10-12
+    - 1113
+    - 1
+  - - 197
+    - Garrison
+    - Stanton
+    - 79
+    - 1999-10-12
+    - 1139
+    - 1
+  - - 198
+    - Kiera
+    - Casper
+    - 29
+    - 2004-10-12
+    - 1216
+    - 1
+  - - 199
+    - Deion
+    - Douglas
+    - 24
+    - 2001-10-12
+    - 1043
+    - 1
+  - - 200
+    - Yazmin
+    - Heller
+    - 72
+    - 2004-10-12
+    - 1149
+    - 1
+  - - 201
+    - Caterina
+    - Cremin
+    - 20
+    - 2000-10-12
+    - 1457
+    - 1
+  - - 202
+    - Edna
+    - Roob
+    - 63
+    - 2001-10-12
+    - 1189
+    - 1
+  - - 203
+    - Mariah
+    - Herman
+    - 12
+    - 2001-10-12
+    - 1289
+    - 1
+  - - 204
+    - Colton
+    - Corwin
+    - 92
+    - 2005-10-12
+    - 1140
+    - 1
+  - - 205
+    - Thora
+    - Witting
+    - 1
+    - 2000-10-12
+    - 1208
+    - 1
+  - - 206
+    - Hellen
+    - Lubowitz
+    - 74
+    - 2006-10-12
+    - 1481
+    - 1
+  - - 207
+    - Kaylie
+    - Sporer
+    - 65
+    - 1997-10-12
+    - 1182
+    - 1
+  - - 208
+    - Addie
+    - Kuhlman
+    - 86
+    - 2002-10-12
+    - 1188
+    - 1
+  - - 209
+    - Arnaldo
+    - O'Kon
+    - 61
+    - 2006-10-12
+    - 1493
+    - 1
+  - - 210
+    - Aaron
+    - Keebler
+    - 88
+    - 2005-10-12
+    - 1126
+    - 1
+  - - 211
+    - Thurman
+    - Dare
+    - 3
+    - 2002-10-12
+    - 1482
+    - 1
+  - - 212
+    - Dorothea
+    - Toy
+    - 94
+    - 1998-10-12
+    - 1042
+    - 1
+---
+users:
+  columns:
+  - id
+  - username
+  - password_digest
+  - instructor_id
+  - role
+  - active
+  records:
+  - - 1
+    - mark
+    - "$2a$10$FzUCf/C7WZnzVkfldtCqXuVZcIlZtjhIcFlv/iFy23Kx3mVBV.QT2"
+    - 1
+    - admin
+    - 1
+  - - 2
+    - alex
+    - "$2a$10$SYvwJq7hkMWjggGXmpp3GO1BawAWenVqwrlPjGiOVOCVugr.SZLQ."
+    - 2
+    - admin
+    - 1
+  - - 3
+    - patrick
+    - "$2a$10$YeT0.vcZ7roGOLX87gLnn.dCTIlvu1hVKJtxfMN7xgvFgJ/oDygv6"
+    - 4
+    - instructor
+    - 1
+  - - 4
+    - mike
+    - "$2a$10$LxHu58iVPYDbMlLNe7hjWO4y.B1XuENuftctoI4igj/1pK/3/HT36"
+    - 5
+    - instructor
+    - 1
+  - - 5
+    - nathan
+    - "$2a$10$5u6hvzHrmmmyBtsmfmKw8O16dlLQByjiAvMONl5h/MB5iKJDwD3uG"
+    - 6
+    - instructor
+    - 1
+  - - 6
+    - austin
+    - "$2a$10$c5aKQyhasQ3/s7Qjf88BiOSQ.1brkdkjVwUJ.AAJcgLP4qBEcbXma"
+    - 7
+    - instructor
+    - 1

@@ -1,0 +1,27 @@
+<h3>Camp Details</h3><br />
+<strong>Name:&nbsp;&nbsp;</strong> 
+  <%= link_to @camp.name, curriculum_path(@camp.curriculum) %><br /><br />
+
+<strong>Cost:&nbsp;&nbsp;</strong> 
+  <%= number_to_currency(@camp.cost) %><br /><br />
+
+<strong>Max Students:&nbsp;&nbsp;</strong> 
+  <%= @camp.max_students %><br /><br />
+
+<strong>Dates:&nbsp;&nbsp;</strong> 
+  <%= @camp.start_date.strftime('%m/%d/%y') %> 
+  <% if @camp.start_date != @camp.end_date %>
+    <%= "- #{@camp.end_date.strftime('%m/%d/%y')}" %>
+  <% end %>
+  <br /><br />
+
+<strong>Time:&nbsp;&nbsp;</strong> 
+  <%= @camp.time_slot == "am" ? "Morning" : "Afternoon" %><br /><br />
+
+<strong>Active?&nbsp;&nbsp;</strong>
+  <%= @camp.active ? "Yes" : "No" %><br /><br />
+
+
+
+<%= link_to "Edit this camp", edit_camp_path(@camp), class: "button tiny radius" %>&nbsp;&nbsp;
+<%= link_to 'Destroy camp', camp_path(@camp), data: { confirm: 'Are you sure you want to permanently remove this camp from the system?' }, method: :delete, class: "button tiny radius alert" %>

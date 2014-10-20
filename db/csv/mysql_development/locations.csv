@@ -1,0 +1,5 @@
+id,name,street_1,street_2,city,state,zip,max_capacity,latitude,longitude,active
+1,North Side,801 Union Place,,Pittsburgh,PA,15212,16,40.454,-80.0031,1
+2,Carnegie Mellon,5000 Forbes Avenue,Porter Hall 222,Pittsburgh,PA,15213,16,40.4411,-79.9423,1
+3,Squirrel Hill,5738 Forbes Avenue,,Pittsburgh,PA,15217,16,40.4377,-79.9239,1
+4,ACAC,250 East Ohio St,,Pittsburgh,PA,15212,16,40.4534,-80.0031,1
