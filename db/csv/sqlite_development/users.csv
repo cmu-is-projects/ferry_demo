@@ -1,0 +1,7 @@
+id,username,password_digest,instructor_id,role,active
+1,mark,$2a$10$0PXC/IW8KLz8ZZPMNwtEtOi3Xq/Q.cjnVbhMIftr615m1zS4ISb86,1,admin,t
+2,alex,$2a$10$o2VpP.cyFoEEsTXgCdLWnOhH3cstEKcJg6yznnatQGnUwmBBooce2,2,admin,t
+3,patrick,$2a$10$SgmAUH.RmwjLVKJf3gyou.Q7f7ulxKqeqzYkm4VDNwbxLsdlyShCi,4,instructor,t
+4,mike,$2a$10$TDYkB0GHhQ1Bpi/dqEg7dusSM6lqJEP36XgblWPG81sl6CwbxCptK,5,instructor,t
+5,nathan,$2a$10$8tTjcq0Rx/YVkkXeo44qf.Y7nyWTcLYgM7bj1U6r6/HSeIu7bL.CG,6,instructor,t
+6,austin,$2a$10$Ov7R.tL0AhoL1ZmkP.eEdusVnVjMnER1eBxned06njup9cncoDRzu,7,instructor,t
