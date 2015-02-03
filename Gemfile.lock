@@ -84,7 +84,7 @@ GEM
       railties (>= 3.0.0)
     faker (1.2.0)
       i18n (~> 0.5)
-    ferry (1.1.0)
+    ferry (1.1.1)
       highline (~> 1.6.21)
       progressbar (~> 0.21.0)
     foundation-rails (5.1.1.0)
